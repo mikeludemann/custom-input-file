@@ -1,0 +1,55 @@
+.content--1 {
+	margin: 10px;
+	padding: 10px;
+}
+
+.input-file-container {
+	position: relative;
+	width: 225px;
+} 
+
+.js .input-file-trigger {
+	display: block;
+	padding: 15px 15px;
+	background: #13D261;
+	color: #fff;
+	font-size: 1em;
+	transition: all .4s;
+	cursor: pointer;
+}
+
+.js .input-file {
+	position: absolute;
+	top: 0; left: 0;
+	width: 225px;
+	opacity: 0;
+	padding: 14px 0;
+	cursor: pointer;
+}
+
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+	background: #138261;
+	color: #fff;
+}
+
+.file-return {
+	margin: 0;
+}
+
+.file-return:not(:empty) {
+	margin: 1em 0;
+}
+
+.js .file-return {
+	font-size: .9em;
+	font-weight: bold;
+}
+
+/*.js .file-return:not(:empty):before {
+	content: "Selected file: ";
+	font-style: normal;
+	font-weight: normal;
+}*/
